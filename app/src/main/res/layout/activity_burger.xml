@@ -4,6 +4,120 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="terminal1.a4.listanegocios.burger">
+    tools:context=".burger">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/micolor3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Burger"
+                android:textColor="#ffffff"
+                android:textSize="42dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/burger_2"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="224dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:text="Restaurante"
+                android:textColor="#ffffff"
+                android:textSize="38dp"
+                android:textStyle="bold" />
+
+            <ImageView
+
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:radius="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="285dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/logo_burger"/>
+
+            <TextView
+                android:layout_width="269dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="74dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="10dp"
+                android:text="Avenida de Eduard Toldrà, 26A, 08800 Vilanova y la Geltrú"
+                android:textColor="#ffffff"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="cursive"
+                android:gravity="center"
+                android:text="Abierto las 24 horas"
+                android:textColor="#ffffff"
+                android:textSize="38dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="10dp"
+                android:text="Menú pollo, King JR Meal, entrantes y meriendas, hamburguesas, bebidas, cafes y postres."
+                android:textColor="#ffffff"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

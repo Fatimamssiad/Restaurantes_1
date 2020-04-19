@@ -1,4 +1,4 @@
-package terminal1.a4.listanegocios;
+package terminal1.a4.loginui;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;

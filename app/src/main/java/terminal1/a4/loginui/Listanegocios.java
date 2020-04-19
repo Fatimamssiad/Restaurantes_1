@@ -1,4 +1,4 @@
-package terminal1.a4.listanegocios;
+package terminal1.a4.loginui;
 import android.widget.RelativeLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
@@ -6,9 +6,7 @@ import android.content.Intent;
 
 import android.os.Bundle;
 
-import terminal1.a4.loginui.R;
-
-public class MainActivity extends AppCompatActivity {
+public class Listanegocios extends AppCompatActivity {
 
     RelativeLayout relativeLayout1;
     RelativeLayout relativeLayout2;
@@ -29,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         relativeLayout1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent redb = new Intent(MainActivity.this, redbar.class);
+                Intent redb = new Intent(Listanegocios.this, redbar.class);
                 startActivity(redb);
             }
         });
@@ -37,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         relativeLayout2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent bur = new Intent(MainActivity.this, burger.class);
+                Intent bur = new Intent(Listanegocios.this, burger.class);
                 startActivity(bur);
             }
         });
@@ -45,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         relativeLayout3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mc = new Intent(MainActivity.this, mcdonalds.class);
+                Intent mc = new Intent(Listanegocios.this, mcdonalds.class);
                 startActivity(mc);
             }
         });
@@ -53,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         relativeLayout4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent kf = new Intent(MainActivity.this, kfc.class);
+                Intent kf = new Intent(Listanegocios.this, kfc.class);
                 startActivity(kf);
             }
         });
